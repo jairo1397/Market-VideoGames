@@ -1,0 +1,22 @@
+.blog {
+    margin: 3rem 0;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .imagen-blog {
+        background-image: url(../../../build/img/blog-2.webp);
+        background-position: center;
+        background-size: cover;
+        width: 40%;
+        height: 100%;
+        margin: 0 2rem;
+    }
+    .contenedor-blog {
+        background-color: $background-oscuro;
+        width: 50%;
+        height: 70%;
+        margin: 0 2rem;
+        border-radius: 20px;
+    }
+}
